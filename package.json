@@ -1,0 +1,14 @@
+{
+  "name": "sketchy",
+  "version": "1.0.0",
+  "description": "Sketchy - online draw and guess game (Node + WebSocket + MongoDB Atlas)",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0",
+    "ws": "^8.18.0"
+  }
+}
